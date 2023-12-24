@@ -13,6 +13,6 @@ describe('Service: getWeatherByCityService', () => {
       longitude: 321,
     })
 
-    expect(response).toHaveProperty('batata')
+    expect(response).toHaveProperty('today')
   })
 })
