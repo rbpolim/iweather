@@ -1,17 +1,4 @@
-import { CityAPIResponse } from '@services/getCityByNameService'
 import { WeatherAPIResponseProps } from '@services/getWeatherByCityService'
-
-export const mockCityAPIResponse: CityAPIResponse = {
-  id: '1',
-  name: 'City 1',
-  sys: {
-    country: 'Brazil',
-  },
-  coord: {
-    lon: 123,
-    lat: 321,
-  },
-}
 
 const currentDay = new Date()
 const nextDay = new Date()

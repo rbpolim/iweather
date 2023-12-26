@@ -1,8 +1,8 @@
+import { mockWeatherAPIResponse } from '@__tests__/mocks/api/mockWeatherAPIResponse'
 import { api } from './api'
-import { mockWeatherAPIResponse } from './mocks'
 import { getWeatherByCityService } from './getWeatherByCityService'
 
-describe('Service: getWeatherByCityService', () => {
+describe('Services: getWeatherByCityService', () => {
   it('should returns the weather data API', async () => {
     jest.spyOn(api, 'get').mockResolvedValue({
       data: mockWeatherAPIResponse,
