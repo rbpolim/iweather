@@ -8,5 +8,9 @@
     "./__tests__/mocks",
     "./__tests__/utils",
     "./__tests__/coverage"
-  ]
+  ],
+  "transform": {
+    "^.+\\.jsx?$": "babel-jest",
+    "^.+\\.svg$": "jest-transformer-svg"
+  }
 }
